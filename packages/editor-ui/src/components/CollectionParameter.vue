@@ -39,7 +39,7 @@
 							:label="
 								isNodePropertyCollection(item)
 									? i18n.nodeText().collectionOptionDisplayName(parameter, item, path)
-									: item.name
+									: item.displayName
 							"
 							:value="item.name"
 						>
